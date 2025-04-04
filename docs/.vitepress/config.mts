@@ -8,12 +8,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About me', link: '/me' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '运维',
+        items: [
+          { text: '运维基础', link: '/运维基础' },
+          { text: '系统运维工程师', link: '/系统运维工程师' },
+          { text: '数据库运维工程师', link: '/数据库运维工程师' },
+          { text: '自动化运维', link: '/自动化运维' },
+          { text: '容器运维', link: '/容器运维' },
+          { text: '云计算+云安全', link: '/云计算+云安全' },
+          { text: '国产信创运维', link: '/国产信创运维' },
+        ]
+      },
+      {
+        text: '前端',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
