@@ -15,7 +15,7 @@ hero:
       link: /api-examples
     - theme: alt
       text: CSDN博客
-      link: /api-examples
+      link: https://blog.csdn.net/2501_91107759
 features:
   - title: 云原生运维
     details: 深入解析Kubernetes、Docker、服务网格等云原生技术，分享容器化部署实践经验和常见问题解决方案

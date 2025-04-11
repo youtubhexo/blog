@@ -30,11 +30,17 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      {
+        text: '每日小结',
+        items: [
+          { text: 'shell 命令行的格式以及如何使用 &shell中常用的通配符& Shell的输入重定向、输出重定向与错误重定向', link: '/每日小结/0411' },
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/youtubhexo' }
     ]
   }
 })
